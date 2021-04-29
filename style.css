@@ -1,0 +1,250 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.header {
+    background-color:#350d36;
+    box-sizing: border-box;
+    height: 60px;   
+    position: relative;
+}
+
+.header--clock {
+    color: rgb(209, 205, 205);
+    display: inline-block;
+    font-size: 25px;
+    line-height: 50px;
+    margin-left: 540px;
+    text-align: center;   
+}
+
+.header--clock:hover{
+    color: white
+}
+
+.header--buscador {
+    background: #350d36;
+    clear: both;
+    height: 25px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    margin-left: 20px;  
+    width: 450px;
+}
+
+.header--buscador:hover {
+    color: white;
+}
+
+::placeholder {
+    color: rgb(209, 205, 205);
+    font-size: 16px;
+}
+
+.header--question {
+    color: rgb(209, 205, 205);
+    display: inline-block;
+    font-size: 25px;
+    line-height: 50px;
+    margin-left: 20px;
+    text-align: center;   
+}
+
+.header--question:hover{
+    color: white;
+}
+
+.header-image {
+    width: 50px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.menu { 
+    background-color: #350d36;
+    height: 99vh;
+    float: left;
+    position: relative;
+    width: 280px;
+}
+
+.menu--superior-titulo {
+    color: white;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px; 
+}
+
+.menu--superior-icono {
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu--subsuperior {
+    padding-top: 20px;
+}
+
+a {
+    color: rgb(209, 205, 205);
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.menu--subsuperior-hover > a:hover{
+    color: white;
+}
+
+.menu--subsuperior-ult-titulo {
+    margin: 12px;
+}
+
+.menu--subsuperior, .menu--medio, .menu--inferior {
+    color: rgb(209, 205, 205);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.menu--subsuperior > div {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.menu--medio > div > i {
+    font-size: 13px;
+}
+
+.menu--medio > div {
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+#menu--medio-canales, #menu--inferior-mensajes  {
+    margin-left: 15px;
+    margin-top: 35px;
+}
+
+.menu--inferior > div {
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.menu--inferior > div > i {
+    font-size: 13px;
+}
+
+.section--menu {
+    border-bottom: 1px solid #cdcdcd; 
+    float: left;
+    height: 40px;
+    padding: 20px;  
+    width: 1365px;   
+    display: block;
+}
+
+.section--menu > div:first-of-type {
+    display: inline-block;
+    position: relative;
+}
+
+.section--menu > div:last-of-type {
+    position: absolute;
+}
+
+.section--menu > div:first-of-type > p {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;  
+}
+
+.section--menu > div:first-of-type > i {
+    font-size: 15px;
+}
+
+
+.section--menu > div:last-of-type > p {
+    color: grey;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.section--menu-info {
+    float: right;
+    font-size: 25px;
+    line-height: 40px;
+    margin-left: 20px;
+    padding: 7px;
+}
+
+.section--menu-info:hover {
+    background-color: #e0dede;
+    border-radius: 2px;
+}
+
+.section--menu-contact {
+    float: right;
+    font-size: 25px;
+    line-height: 40px;
+    padding: 7px;
+}
+
+.section--menu-contact:hover{
+    background-color: #e0dede;
+    border-radius: 2px;
+}
+
+.section-comments {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-comments > div > h2, h6{
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 5px;
+    vertical-align: 20px;
+}
+
+h6 {
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.section-comments > div > p {
+    margin-left: 385px;
+    margin-bottom: 20px;
+}
+
+.section-comments-yesterday {
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.section-comments > div:hover {
+    background-color: #e0dede;
+}
+
+.section-comments > div > img {
+    border-radius: 4px;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 50px;
+}
+
+.emoji {
+    font-size: 30px;
+    margin-left: 385px;
+    margin-bottom: 5px;
+}
